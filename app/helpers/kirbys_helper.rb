@@ -1,0 +1,2 @@
+module KirbysHelper
+end
