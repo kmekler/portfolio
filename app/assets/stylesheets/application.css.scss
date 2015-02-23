@@ -89,12 +89,21 @@ figure.effect-kirby:hover p {
 	transform: translate3d(0,0,0);
 }
 
+.name {
+	margin-top: 20%;
+}
+
+.title {
+	margin-left: 1.5%;
+	margin-top: 1%;
+}
+
 .about {
 	margin-left: 10%;
 }
 
 .me {
-	margin-left: 50%;
+	margin-right: 0px;
 	background-size:720px 480px;
 	background-position:-160px 0px;
 	height:300px;
