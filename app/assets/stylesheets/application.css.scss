@@ -28,7 +28,7 @@ font-family: 'Poiret One', cursive;
 }
 
 figure {
-	background-image: url(bear.jpg);
+	background-image: url(la.jpg);
 	width: 100%;
 	height: 500px;
 	background-size: 100% 100%;
@@ -91,20 +91,39 @@ figure.effect-kirby:hover p {
 
 .name {
 	margin-top: 20%;
+	color: white;
 }
 
 .title {
-	margin-left: 1.5%;
-	margin-top: 1%;
+	margin-left: 4%;
+	margin-top: 2%;
 }
 
 .about {
 	margin-left: 10%;
-	margin-top: 5%;
+	margin-top: 8%;
 }
 
 .me {
 	margin-right: 0px;
+	background-size:720px 480px;
+	background-position:-160px 0px;
+	height:300px;
+	width:300px;
+	border-radius:50%;
+	border: 8px solid white;
+	overflow:hidden;
+	margin:auto;
+}
+
+.projects {
+	text-align: center;
+	margin-top: 30%;
+	padding-top: 15px;
+	background-color: rgb(231,231,231);
+}
+
+.project-items {
 	background-size:720px 480px;
 	background-position:-160px 0px;
 	height:300px;
