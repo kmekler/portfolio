@@ -23,7 +23,8 @@ margin: 0;
 
 padding: 0;
 
-font-family: 'Poiret One', cursive;
+// font-family: 'Poiret One', cursive;
+font-family: helvetica;
 
 }
 
@@ -53,7 +54,6 @@ figure.effect-kirby h2 {
 	top: 35%;
 	left: 5%;
 	text-align: left;
-	font-family: 'Poiret One', cursive;
 	font-size: 38px;
 	width: 100%;
 	color: #484c61;
@@ -74,7 +74,6 @@ figure.effect-kirby p {
 	width: 100%;
 	opacity: 0;
 	color: white;
-	font-family: 'Poiret One', cursive;
 	transform: translate3d(0,10px,0);
 }
 
@@ -95,8 +94,8 @@ figure.effect-kirby:hover p {
 }
 
 .title {
-	margin-left: 4%;
-	margin-top: 2%;
+	margin-left: 5.5%;
+	margin-top: 3%;
 }
 
 .about {
@@ -116,20 +115,17 @@ figure.effect-kirby:hover p {
 	margin:auto;
 }
 
-.projects {
+.work {
 	text-align: center;
 	margin-top: 30%;
 	padding-top: 15px;
 	background-color: rgb(231,231,231);
 }
 
-.project-items {
-	background-size:720px 480px;
-	background-position:-160px 0px;
+.work-items {
 	height:300px;
 	width:300px;
-	border-radius:50%;
-	border: 8px solid white;
+	padding: 15px;
 	overflow:hidden;
 	margin:auto;
 }
