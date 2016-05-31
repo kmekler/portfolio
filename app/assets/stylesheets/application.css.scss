@@ -15,16 +15,15 @@
 
  */
  @import 'bootstrap';
- @import url(http://fonts.googleapis.com/css?family=Poiret+One);
-
+ @import url(https://fonts.googleapis.com/css?family=Satisfy);
  * {
 
 margin: 0;
 
 padding: 0;
 
-// font-family: 'Poiret One', cursive;
 font-family: helvetica;
+color: black;
 
 }
 
@@ -91,16 +90,21 @@ figure.effect-kirby:hover p {
 .name {
 	margin-top: 20%;
 	color: white;
+    font-family: 'Satisfy', cursive;
 }
 
 .title {
-	margin-left: 5.5%;
-	margin-top: 3%;
+	margin-left: 5%;
+	margin-top: 4%;
 }
 
-.about {
+.intro {
 	margin-left: 10%;
 	margin-top: 8%;
+}
+.hi {
+	font-family: 'Satisfy', cursive;
+	font-size: 26px;
 }
 
 .me {
@@ -115,17 +119,80 @@ figure.effect-kirby:hover p {
 	margin:auto;
 }
 
-.work {
+.work-section {
 	text-align: center;
-	margin-top: 30%;
+	margin-top: 32%;
 	padding-top: 15px;
 	background-color: rgb(231,231,231);
 }
-
+.work {
+	font-family: 'Satisfy', cursive;
+	font-size: 45px;
+}
 .work-items {
 	height:300px;
 	width:300px;
-	padding: 15px;
+	padding: 10px 25px 25px 25px;
 	overflow:hidden;
 	margin:auto;
+}
+.company {
+	margin-top: 280px;
+	position: absolute;
+	margin-left: -14%;
+	text-align: center;
+}
+.resume {
+	margin-top: 20px;
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+.about-section {
+	text-align: center;
+	margin: 0 auto;
+}
+.about-text2 {
+	text-align: center;
+	margin-left: 17%;
+}
+.about {
+	font-family: 'Satisfy', cursive;
+	font-size: 45px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.list {
+	margin-left: 37%;
+	margin-bottom: 2%;
+}
+.assistants-section {
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgb(231,231,231);
+}
+.assistants {
+	font-family: 'Satisfy', cursive;
+	font-size: 45px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.dogs {
+	background-size:720px 480px;
+	background-position:-160px 0px;
+	height:300px;
+	width:300px;
+	border-radius:50%;
+	border: 8px solid white;
+	overflow:hidden;
+	margin:auto;
+}
+.contact-section {
+	text-align: center;
+	margin: 0 auto;
+}
+.contact {
+	font-family: 'Satisfy', cursive;
+	font-size: 45px;
+	margin: 0 auto;
+	padding-top: 30px;
 }
