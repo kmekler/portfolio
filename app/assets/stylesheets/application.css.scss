@@ -113,11 +113,15 @@ figure.effect-kirby:hover p {
 	font-size: 26px;
 	// For mobile
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-		margin-left: -5%;
+		margin-left: -10%;
 	}
-
 }
-
+.intro-text {
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		margin-left: -10%;
+		margin-bottom: -5%;
+	}
+}
 .me {
 	margin-right: 0px;
 	background-size:720px 480px;
