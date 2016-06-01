@@ -111,6 +111,7 @@ figure.effect-kirby:hover p {
 .hi {
 	font-family: 'Satisfy', cursive;
 	font-size: 26px;
+
 }
 
 .me {
@@ -123,6 +124,12 @@ figure.effect-kirby:hover p {
 	border: 8px solid white;
 	overflow:hidden;
 	margin:auto;
+
+	// For mobile
+	@media only screen and (min-width: 768px) {
+	  	margin-left: 38%;
+	  	margin-bottom: -25%;
+	}
 }
 
 .work-section {
@@ -147,6 +154,11 @@ figure.effect-kirby:hover p {
 	position: absolute;
 	margin-left: -14%;
 	text-align: center;
+
+	// For mobile
+	@media only screen and (min-width: 768px) {
+	  	margin-left: -20%;;
+	}
 }
 .resume {
 	margin-top: 20px;
@@ -160,6 +172,11 @@ figure.effect-kirby:hover p {
 .about-text2 {
 	text-align: center;
 	margin-left: 17%;
+
+	// For mobile
+	@media only screen and (min-width: 768px) {
+	  	margin-left: 2%;
+	}
 }
 .about {
 	font-family: 'Satisfy', cursive;
@@ -170,6 +187,11 @@ figure.effect-kirby:hover p {
 .list {
 	margin-left: 37%;
 	margin-bottom: 2%;
+
+	// For mobile
+	@media only screen and (min-width: 768px) {
+	  	margin-left: 20%;
+	}
 }
 .assistants-section {
 	text-align: center;
@@ -185,6 +207,11 @@ figure.effect-kirby:hover p {
 }
 .dogs-container {
 	margin-left: 24%;	
+
+	// For mobile
+	@media only screen and (min-width: 768px) {
+	  	margin-left: 0px;
+	}
 }
 .dogs {
 	background-size:720px 480px;
