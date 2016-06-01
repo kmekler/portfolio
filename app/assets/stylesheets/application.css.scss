@@ -126,10 +126,10 @@ figure.effect-kirby:hover p {
 	margin:auto;
 
 	// For mobile
-	@media only screen and (min-width: 768px) {
-	  	margin-left: 38%;
-	  	margin-bottom: -25%;
-	}
+	// @media only screen and (min-width: 320px) {
+	//   	margin-left: 38%;
+	//   	margin-bottom: -25%;
+	// }
 }
 
 .work-section {
@@ -156,9 +156,9 @@ figure.effect-kirby:hover p {
 	text-align: center;
 
 	// For mobile
-	@media only screen and (min-width: 768px) {
-	  	margin-left: -20%;;
-	}
+	// @media only screen and (min-width: 320px) {
+	//   	margin-left: -20%;;
+	// }
 }
 .resume {
 	margin-top: 20px;
@@ -174,9 +174,9 @@ figure.effect-kirby:hover p {
 	margin-left: 17%;
 
 	// For mobile
-	@media only screen and (min-width: 768px) {
-	  	margin-left: 2%;
-	}
+	// @media only screen and (min-width: 320px) {
+	//   	margin-left: 2%;
+	// }
 }
 .about {
 	font-family: 'Satisfy', cursive;
@@ -189,9 +189,9 @@ figure.effect-kirby:hover p {
 	margin-bottom: 2%;
 
 	// For mobile
-	@media only screen and (min-width: 768px) {
-	  	margin-left: 23%;
-	}
+	// @media only screen and (min-width: 320px) {
+	//   	margin-left: 23%;
+	// }
 }
 .assistants-section {
 	text-align: center;
@@ -209,9 +209,9 @@ figure.effect-kirby:hover p {
 	margin-left: 24%;	
 
 	// For mobile
-	@media only screen and (min-width: 768px) {
-	  	margin-left: 0px;
-	}
+	// @media only screen and (min-width: 320px) {
+	//   	margin-left: 0px;
+	// }
 }
 .dogs {
 	background-size:720px 480px;
