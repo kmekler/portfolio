@@ -15,7 +15,8 @@
 
  */
  @import 'bootstrap';
- @import url(https://fonts.googleapis.com/css?family=Satisfy);
+ @import url('https://fonts.googleapis.com/css?family=Raleway:100');
+
  * {
 
 	html,body
@@ -35,82 +36,29 @@
 
 }
 
-figure {
-	background-image: url(la.jpg);
-	width: 100%;
-	height: 500px;
-	background-size: 100% 100%;	
-}
-
-figure.effect-kirby figcaption::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 500px;
-	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
-	content: '';
-	opacity: 0;
-	transform: translate3d(0,50%,0);
-}
-
-figure.effect-kirby h2 {
-	position: absolute;
-	top: 35%;
-	left: 5%;
-	text-align: left;
-	font-size: 38px;
-	width: 100%;
-	color: #484c61;
-	transition: transform 0.35s, color 0.35s;
-	transform: translate3d(0,-50%,0);
-}
-
-figure.effect-kirby figcaption::before,
-figure.effect-kirby p {
-	transition: opacity 0.35s, transform 0.35s;
-}
-
-figure.effect-kirby p {
-	position: absolute;
-	top: 30%;
-	left: 0.5%;
-	padding: 2em;
-	width: 100%;
-	opacity: 0;
-	color: white;
-	transform: translate3d(0,10px,0);
-}
-
-figure.effect-kirby:hover h2 {
-	color: #fff;
-	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
-}
-
-figure.effect-kirby:hover figcaption::before ,
-figure.effect-kirby:hover p {
-	opacity: 1;
-	transform: translate3d(0,0,0);
-}
-
-.name {
-	margin-top: 20%;
-	color: white;
-    font-family: 'Satisfy', cursive;
-}
+// .name {
+// 	margin-top: 20%;
+// 	color: white;
+//     font-family: 'Raleway', sans-serif;
+// }
 
 .title {
-	margin-left: 5%;
-	margin-top: 3%;
+	color: #d49baf;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
 }
 
 .intro {
 	margin-left: 10%;
-	margin-top: 8%;
+	margin-top: 10%;
 }
-.hi {
-	font-family: 'Satisfy', cursive;
-	font-size: 26px;
+.name {
+	font-family: 'Raleway', sans-serif;
+	font-size: 80px;
+	color: #2d6b02;
+	border-bottom: solid 1px #d80070;
+	padding-bottom: 8px;
+	padding-bottom: 8px;
 	// For mobile
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 		margin-left: -10%;
@@ -127,8 +75,8 @@ figure.effect-kirby:hover p {
 	margin-right: 0px;
 	background-size:720px 480px;
 	background-position:-160px 0px;
-	height:300px;
-	width:300px;
+	height:400px;
+	width:400px;
 	border-radius:50%;
 	border: 8px solid white;
 	overflow:hidden;
@@ -145,11 +93,14 @@ figure.effect-kirby:hover p {
 	text-align: center;
 	margin-top: 32%;
 	padding-top: 15px;
-	background-color: rgb(231,231,231);
+	// background-color: rgb(231,231,231);
 }
 .work {
-	font-family: 'Satisfy', cursive;
+	font-family: 'Raleway', sans-serif;
 	font-size: 45px;
+	color: #2d6b02;
+	border-bottom: solid 1px #d80070;
+	padding-bottom: 8px;
 }
 .work-items {
 	height:300px;
@@ -192,10 +143,13 @@ figure.effect-kirby:hover p {
 	}
 }
 .about {
-	font-family: 'Satisfy', cursive;
+	font-family: 'Raleway', sans-serif;
 	font-size: 45px;
 	margin: 0 auto;
 	padding-top: 30px;
+	color: #2d6b02;
+	border-bottom: solid 1px #d80070;
+	padding-bottom: 8px;
 }
 .list {
 	margin-left: 37%;
@@ -209,14 +163,17 @@ figure.effect-kirby:hover p {
 .assistants-section {
 	text-align: center;
 	margin: 0 auto;
-	background-color: rgb(231,231,231);
+	// background-color: rgb(231,231,231);
 }
 .assistants {
-	font-family: 'Satisfy', cursive;
+	font-family: 'Raleway', sans-serif;
 	font-size: 45px;
-	margin: 0 auto;
+    margin: 40px auto;
 	padding-top: 30px;
 	padding-bottom: 2%;
+	color: #2d6b02;
+	border-bottom: solid 1px #d80070;
+	padding-bottom: 8px;
 }
 .dogs-container {
 	margin-left: 24%;	
@@ -232,7 +189,7 @@ figure.effect-kirby:hover p {
 	height:300px;
 	width:300px;
 	border-radius:50%;
-	border: 8px solid rgb(231,231,231);
+	border: 8px solid white;
 	overflow:hidden;
 	margin:auto;
 }
@@ -244,10 +201,13 @@ figure.effect-kirby:hover p {
 	margin: 0 auto;
 }
 .contact {
-	font-family: 'Satisfy', cursive;
+	font-family: 'Raleway', sans-serif;
 	font-size: 45px;
 	margin: 0 auto;
 	padding-top: 30px;	
+	color: #2d6b02;
+	border-bottom: solid 1px #d80070;
+	padding-bottom: 8px;
 }
 .last-line {
 	margin-bottom: 3%;
