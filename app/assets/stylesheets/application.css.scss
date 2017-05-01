@@ -17,7 +17,7 @@
  @import 'bootstrap';
  @import url('https://fonts.googleapis.com/css?family=Raleway:100');
 
- * {
+ * { 
 
 	html,body
 	{
@@ -25,37 +25,40 @@
 	    height: 100%;
 	    margin: 0px;
 	    padding: 0px;
+		font-family: 'Raleway', sans-serif;
 	    overflow-x: hidden; 
+	    ::selection {
+		  background: #fff4f0; /* WebKit/Blink Browsers */
+		}
+		::-moz-selection {
+		  background: #fff4f0; /* Gecko Browsers */
+
+		}
 	}
 
-	margin: 0 auto;
-	padding: 0;
-
-	font-family: helvetica;
 	color: black;
 
 }
 
-// .name {
-// 	margin-top: 20%;
-// 	color: white;
-//     font-family: 'Raleway', sans-serif;
-// }
+
+.header-pic {
+	padding: 0;
+	margin-bottom: 50px;
+}
+
 
 .title {
 	color: #d49baf;
-	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
 }
 
 .intro {
 	margin-left: 10%;
-	margin-top: 10%;
+	margin-top: -32%;
 }
 .name {
-	font-family: 'Raleway', sans-serif;
 	font-size: 80px;
-	color: #2d6b02;
+	color: white;
 	border-bottom: solid 1px #d80070;
 	padding-bottom: 8px;
 	padding-bottom: 8px;
@@ -75,8 +78,8 @@
 	margin-right: 0px;
 	background-size:720px 480px;
 	background-position:-160px 0px;
-	height:400px;
-	width:400px;
+	height:350px;
+	width:350px;
 	border-radius:50%;
 	border: 8px solid white;
 	overflow:hidden;
@@ -93,14 +96,12 @@
 	text-align: center;
 	margin-top: 32%;
 	padding-top: 15px;
-	// background-color: rgb(231,231,231);
+	width: 100%;
 }
 .work {
-	font-family: 'Raleway', sans-serif;
 	font-size: 45px;
 	color: #2d6b02;
-	border-bottom: solid 1px #d80070;
-	padding-bottom: 8px;
+	margin: 0 auto;
 }
 .work-items {
 	height:300px;
@@ -143,7 +144,7 @@
 	}
 }
 .about {
-	font-family: 'Raleway', sans-serif;
+	// font-family: 'Raleway', sans-serif;
 	font-size: 45px;
 	margin: 0 auto;
 	padding-top: 30px;
@@ -155,6 +156,7 @@
 	margin-left: 37%;
 	margin-bottom: 2%;
 
+
 	// For mobile
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	  	margin-left: -5%;
@@ -163,10 +165,8 @@
 .assistants-section {
 	text-align: center;
 	margin: 0 auto;
-	// background-color: rgb(231,231,231);
 }
 .assistants {
-	font-family: 'Raleway', sans-serif;
 	font-size: 45px;
     margin: 40px auto;
 	padding-top: 30px;
@@ -195,19 +195,23 @@
 }
 .pennygizmo {
 	margin-bottom: 7%;
+
 }
 .contact-section {
 	text-align: center;
 	margin: 0 auto;
 }
 .contact {
-	font-family: 'Raleway', sans-serif;
 	font-size: 45px;
 	margin: 0 auto;
 	padding-top: 30px;	
 	color: #2d6b02;
-	border-bottom: solid 1px #d80070;
+	width: 100%;
+}
+.border {
+    border-bottom: solid 1px #d80070;
 	padding-bottom: 8px;
+	width: 70%;
 }
 .last-line {
 	margin-bottom: 3%;
