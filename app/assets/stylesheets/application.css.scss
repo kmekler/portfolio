@@ -1,19 +1,3 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
-
- */
  @import 'bootstrap';
  @import url('https://fonts.googleapis.com/css?family=Raleway:100');
 
@@ -40,12 +24,12 @@
 
 }
 
-
 .header-pic {
 	padding: 0;
 	margin-bottom: 50px;
+    height: auto;
+    width: 100%;
 }
-
 
 .title {
 	color: #d49baf;
@@ -62,34 +46,6 @@
 	border-bottom: solid 1px #d80070;
 	padding-bottom: 8px;
 	padding-bottom: 8px;
-	// For mobile
-	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-		margin-left: -10%;
-	}
-}
-.intro-text {
-	// For Mobile
-	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-		margin-left: -10%;
-		margin-bottom: -5%;
-	}
-}
-.me {
-	margin-right: 0px;
-	background-size:720px 480px;
-	background-position:-160px 0px;
-	height:350px;
-	width:350px;
-	border-radius:50%;
-	border: 8px solid white;
-	overflow:hidden;
-	margin:auto;
-
-	// For mobile
-	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-		margin-left: 15%;
-	  	margin-bottom: -25%;
-	}
 }
 
 .work-section {
@@ -114,17 +70,7 @@
 	  	margin-left: 8%;
 	}
 }
-.company {
-	margin-top: 280px;
-	position: absolute;
-	margin-left: -14%;
-	text-align: center;
 
-	// For mobile
-	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	  	margin-left: -47%;
-	}
-}
 .resume {
 	margin-top: 20px;
 	font-size: 18px;
@@ -176,22 +122,18 @@
 	padding-bottom: 8px;
 }
 .dogs-container {
-	margin-left: 24%;	
-
-	// For mobile
-	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	  	margin-left: 0px;
-	}
+	    margin-left: 24%;
 }
+
 .dogs {
 	background-size:720px 480px;
 	background-position:-160px 0px;
 	height:300px;
 	width:300px;
 	border-radius:50%;
-	border: 8px solid white;
 	overflow:hidden;
 	margin:auto;
+		border: 8px solid white;
 }
 .pennygizmo {
 	margin-bottom: 7%;
@@ -215,4 +157,66 @@
 }
 .last-line {
 	margin-bottom: 3%;
+}
+
+.about-text {
+	margin: 0
+}
+
+@media (max-width: 1140px) {
+	.dogs-container {
+		margin-left: 15%;
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 960px) {
+	.name {
+		font-size: 30px;
+	}
+	.intro {
+	    margin-top: -38%;
+	}
+
+	.dogs-container {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 770px) {
+	.name {
+		font-size: 25px;
+	}
+
+	.intro {
+	    margin-left: -35%;
+	    margin-top: -58%;
+	}
+
+	.work-section {
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	.about-section {
+		padding: 0 5px 0 5px;
+	}
+
+	.dogs-container {
+		margin: 0 auto;
+	}
+
+
+	.about-text {
+		margin: 0 auto;
+	}
+
+	.list {
+		margin: 0 auto;
+	}
+
+	.about-text2 {
+		margin: 0 auto;
+	}
 }
